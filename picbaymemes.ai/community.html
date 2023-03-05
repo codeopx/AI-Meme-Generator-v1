@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Community Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <div class="topnav" id="myTopnav">
+        <label class="logo"> <img src="logo.jpg" class="logo_page"/>PicBay Memes</label>
+        <a href="home.html">Home</a>
+        <a href="randmemes.html">Random Memes</a>
+        <a href="community.html">Community</a>
+        <a href="artgen.html">AI Memes</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    
+    <main class="combox">
+      <h2>Welcome to our community!</h2>
+      <p>Here you can find information about upcoming events, connect with other members, and learn more about our organization.</p>
+      
+      <h3>Upcoming Events</h3>
+      <div class="card">
+        <img src="image.jpg" alt="Image" style="width:100%">
+        <div class="container">
+          <h4><b>Card Title</b></h4> 
+          <p>Some text that describes the card.</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image.jpg" alt="Image" style="width:100%">
+        <div class="container">
+          <h4><b>Card Title</b></h4> 
+          <p>Some text that describes the card.</p> 
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="image.jpg" alt="Image" style="width:100%">
+        <div class="container">
+          <h4><b>Card Title</b></h4> 
+          <p>Some text that describes the card.</p> 
+        </div>
+      </div>
+      
+      <h3>Connect with Us</h3>
+      <p>Join our community on social media:</p>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Instagram</a></li>
+      </ul>
+    </main>
+    
+    <footer>
+      <p>&copy; PicBay Memes. All rights reserved.</p>
+    </footer>
+
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+  </body>
+</html>

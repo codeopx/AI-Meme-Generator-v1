@@ -1,50 +1,90 @@
 <!DOCTYPE html>
-
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>PicBay Memes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <head>
+        <meta charset="utf-8">
+        <title>PicBay Memes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css"> 
+     
+    </head>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <label class="logo"> <img src="logo.jpg" class="logo_page"/>PicBay Memes</label>
+        <a href="home.html">Home</a>
+        <a href="randmemes.html">Random Memes</a>
+        <a href="community.html">Community</a>
+        <a href="aimemegen.html">AI Memes</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <header class="header center">
+        <div class="header-text">
+          <h1 class="heading">PicBay Memes</h1>
+          <p class="header-paragraph">Everybody is a genius....</p>
+        </div> 
+      </header>
 
-  
+      
+      <section>
+       <div class="section">
+        <div class="container">
+          <div class="content-section">
+            <div class="title">
+              <center>
+                <h1>PicBay Memes</h1>
+              </center>
+            </div>
+            <div class="content">
+             <center><h3>Welcome To PicBay Memes Website</h3></center> 
+              <p>PicBay is a newly built meme generator site ,built to enhance the fun and usage of memes.
+                            Memes can be created and shared on various social mèdia like instagram,twitter, etc.
+                            Picbay is currently working on an AI meme-generator launching soon...
+               </p>
+              <div class="button">
+                <center><a href="about.html">Read More</a></center>
+              </div>
+            </div>
+            <div class="social">
+              <a href="https://instagram.com/picbaymemes?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+              <a href="https://medium.com/@tobynosarocks"><i class="fas fa-blog"></i></i></a>
+              
+            </div>
+          </div>
+          <div class="image-section">
+            <img src="logo.jpg">
+          </div>
+        </div>
+      </div>
+    
+      </section>
+      
 
-  </head>
-  <body>
     
 
 
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
 
-      </label>
+
+
+
+>
       
-      <label class="logo"> <img src="logo.jpg" class="logo_page"/>PicBay</label>
-    
-      <ul>
-        <li><a class="active" href="#">Memes</a></li>
-        <li><a href="index.html">YT-Thumbnails</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
 
-    <div class="meme-generator">
 
-      <a button class="generate-meme-btn" href ="#"><i class="ion-ios-arrow-down"></i>GRAB MEME</button></a>
+     
 
-      
-      
-      <h2 class="meme-title">Loading....</h2>
 
-      <img src="" alt="">
-
-      <div class="meme-author"></div>
-
-    </div>
-    <script src="main.js"></script>
-  </body>
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    </body>
 </html>

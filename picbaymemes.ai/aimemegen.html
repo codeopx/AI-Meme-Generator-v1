@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>PicBay Memes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+        <link rel="stylesheet" href="style.css"> 
+     
+    </head>
+    <body>
+      <div class="topnav" id="myTopnav">
+        <label class="logo"> <img src="logo.jpg" class="logo_page"/>PicBay Memes</label>
+        <a href="home.html">Home</a>
+        <a href="randmemes.html">Random Memes</a>
+        <a href="community.html">Community</a>
+        <a href="aimemegen.html">AI Memes</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <center>
+        <h2>Picbay AI Meme Generator</h2>
+        <hr>
+      </center>
+
+      <div class="searchbar">
+        <center>
+            <div id="searchbar-wrapper">
+                <div class="row">
+                  <form method="GET" action="index.html" ID="searchbar">
+                    <input type="text" name="destination" placeholder="" />
+                    <input type="submit" name="search" value="Search" />
+          
+                  </form>
+                </div>
+              </div>
+    
+        </center>
+      </div>
+
+      <center>
+        <br>
+        <br>
+        <a button class="generate-meme-btn" href ="#"><i class="ion-ios-arrow-down"></i>GRAB MEME</button></a>
+      </center>
+
+     
+
+     
+    
+
+
+
+
+
+
+
+     
+	<footer style="padding: 300px;">
+		<div class="container-fluid footer">
+			<p>PicBay Memes Created By Toby Nosa(AI Version soon..)</p>
+			
+		</div>
+		
+	</footer>     
+
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+    </body>
+</html>
+
+<script src="ai.js"></script>
