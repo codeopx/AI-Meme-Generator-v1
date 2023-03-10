@@ -30,7 +30,7 @@ body {
 header{
   width: 100%;
   height: calc(100vh - 7rem);
-  background: url(images/logo5.jpg) center no-repeat;
+  background: url(images/logo9.jpg) center no-repeat;
   background-size: cover;
   position: relative;
   perspective: 100rem;
@@ -299,11 +299,11 @@ p{
 
 
 .meme-generator{
-  background-color:#191c29;
+  background-color: antiquewhite;
   /*   width: 70vw; */
     margin: auto;
     padding: 20px;
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: center; 
     align-items: center;
@@ -311,6 +311,9 @@ p{
     border-radius: 10px;
     box-shadow: 8px 8px 8px #114D99, -8px -8px 8px #114D99, 8px -8px 8px #114D99, -8px 8px 8px #114D99;
     width:fit-content;
+}
+
+.container{
 }
 
 @media (max-width: 400px){
@@ -322,7 +325,7 @@ p{
 
 
 .meme-generator img{
-  width: 90%;
+  width: 50%;
 }
 
 .meme-generator .generate-meme-btn{
@@ -335,7 +338,8 @@ font-size: 36px;
 font-weight: 600;
 color: #fff;
 background-color: #114D99;
-
+border: none;
+text-decoration: none;
 }
 
 .meme-generator .generate-meme-btn:hover{
@@ -343,6 +347,8 @@ background-color: #114D99;
   border-left: 2px solid #222;
   border-right: px solid #222;
   letter-spacing: 3px;
+  border: none;
+  text-decoration: none;
 }
 
 .meme-generator .meme-author{
@@ -357,37 +363,34 @@ background-color: #114D99;
 }
 
 
-/*COMMUNITY CSS*/
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-}
 
-.container {
-  padding: 2px 16px;
-}
-
-img {
-  border-radius: 5px 5px 0 0;
-}
 
 
 /*Ai Meme SearchBar CSS and Grab meme Button css*/
 
 .generate-meme-btn{
-    margin: 10px;
-padding: 2px 12px;
-border-radius: 5px;
-outline: none;  
-font-family: inherit;
-font-size: 36px;
-font-weight: 600;
-color: #fff;
-background-color: #114D99;
 
+  margin: 10px;
+  padding: 2px 12px;
+  border-radius: 5px;
+  outline: none;  
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #114D99;
+  border: none;
+  text-decoration: none;
+
+}
+
+.generate-meme-btn:hover{
+  padding: 8px 36px;
+  border-left: 2px solid #222;
+  border-right: px solid #222;
+  letter-spacing: 3px;
+  border: none;
+  text-decoration: none;
 }
 #searchbar-wrapper{
   position:relative;
@@ -446,3 +449,26 @@ background-color: #114D99;
   #searchbar input[type="submit"]:hover{
     background-color: #114D99;
   }
+
+
+  /*AI-BOX CSS*/
+
+
+.aibox{
+  border: 6px solid  antiquewhite;
+  width: fit-content;
+  padding: 8%;
+  background-color: antiquewhite;
+  background-image: url("images/logo8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px antiquewhite, -8px -8px 8px antiquewhite, 8px -8px 8px antiquewhite, -8px 8px 8px antiquewhite;
+
+}
+
+
+
