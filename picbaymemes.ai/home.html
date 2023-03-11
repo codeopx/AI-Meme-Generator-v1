@@ -11,7 +11,7 @@
     <body>
       <div class="topnav" id="myTopnav">
         <label class="logo"> <img src="logo.jpg" class="logo_page"/>PicBay Memes</label>
-        <a href="home.html">Home</a>
+        <a href="home.html" id="active">Home</a>
         <a href="randmemes.html">Random Memes</a>
 
         <a href="aimemegen.html">AI Memes</a>
@@ -85,6 +85,8 @@
           x.className = "topnav";
         }
       }
+
+      document.getElementById('active').focus();
       </script>
     </body>
 </html>
