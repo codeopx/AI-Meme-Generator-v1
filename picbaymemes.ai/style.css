@@ -466,9 +466,24 @@ text-decoration: none;
   justify-content: center;
   margin: auto;
   border-radius: 20px;
-  box-shadow: 8px 8px 8px antiquewhite, -8px -8px 8px antiquewhite, 8px -8px 8px antiquewhite, -8px 8px 8px antiquewhite;
+  box-shadow: 8px 8px 8px lightgray, -8px -8px 8px lightgray, 8px -8px 8px lightgray, -8px 8px 8px lightgray;
 
 }
+ 
 
+/*ADBOX*/
+
+.tbox{
+  border: 2px solid antiquewhite;
+  width: 75%;
+  height: 300px;
+  margin: 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+  box-shadow: 8px 8px 8px lightgray, -8px -8px 8px lightgray, 8px -8px 8px lightgray, -8px 8px 8px lightgray;
+  border-radius: 30px;
+
+
+}
 
 
